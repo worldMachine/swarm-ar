@@ -1,0 +1,23 @@
+{
+  "name": "swarm-ar",
+  "version": "1.0.0",
+  "description": "Swarm AR Webapp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "http-server -S -C conf/cert.pem -K conf/key.pem"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/worldMachine/swarm-ar.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/worldMachine/swarm-ar/issues"
+  },
+  "homepage": "https://github.com/worldMachine/swarm-ar#readme",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}
